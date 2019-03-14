@@ -1,0 +1,7 @@
+<<: !include "../hpack/module.yaml"
+
+name: tdd-in-idris
+
+library:
+  <<: *lib-common
+  dependencies:

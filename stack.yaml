@@ -1,0 +1,15 @@
+resolver: lts-13.11
+
+packages:
+  - tdd-in-idris
+
+extra-deps:
+  - base-noprelude-4.11.1.0
+  ## Lootbox is not on Hackage, it loads universum as prelude
+  - git: https://github.com/serokell/lootbox
+    commit: 4862d6332791256f0d3c1f9caf1bba8cf38a7851 # master
+    subdirs:
+      - code/prelude
+
+ghc-options:
+  "$locals": -fhide-source-paths

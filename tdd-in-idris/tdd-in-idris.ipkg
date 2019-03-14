@@ -1,0 +1,10 @@
+package tdd-in-idris
+
+pkgs = effects
+
+modules = Main
+        , Part1.Sec1
+
+sourcedir = src
+main = Main
+executable = tdd-in-idris
