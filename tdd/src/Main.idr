@@ -5,4 +5,4 @@ module Main
 -- forces compiling of all modules
 
 main : IO ()
-main = return ()
+main = putStrLn "hello idris"

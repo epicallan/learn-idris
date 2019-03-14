@@ -1,4 +1,4 @@
-package tdd-in-idris
+package tdd
 
 pkgs = effects
 
@@ -7,4 +7,4 @@ modules = Main
 
 sourcedir = src
 main = Main
-executable = tdd-in-idris
+executable = tddEx

@@ -1,12 +1,7 @@
 DEFAULT: build
 
-clean:
-	idris --clean tdd-in-idris/tdd-in-idris.ipkg
+build: MAKE -C tdd
 
-all: install
+all: +$(MAKE) -C tdd
 
-install: build
-	idris --install tdd-in-idris/tdd-in-idris.ipkg
-
-build:
-idris --build tdd-in-idris/tdd-in-idris.ipkg
+clean: +$(MAKE) -C tdd

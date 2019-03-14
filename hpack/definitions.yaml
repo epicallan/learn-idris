@@ -5,14 +5,14 @@ _definitions:
   _top-level:
     - &meta
         version:            '0.1.1'
-        description:        'Please see the README on Github at <https://github.com/epicallan/tdd-in-idris#readme>'
-        homepage:           'https://github.com/epicallan/tdd-in-idris#readme'
-        bug-reports:        https://github.com/epicallan/tdd-in-idris/issues
+        description:        'Please see the README on Github at <https://github.com/epicallan/tdd#readme>'
+        homepage:           'https://github.com/epicallan/tdd#readme'
+        bug-reports:        https://github.com/epicallan/tdd/issues
         author:             epicallan
         maintainer:         epicallan <epicallan.al@gmail.com>
         copyright:          2018 epicallan
         license:            MIT
-        github:             epicallan/tdd-in-idris
+        github:             epicallan/tdd
         extra-source-files: []
 
     - &default-extensions
