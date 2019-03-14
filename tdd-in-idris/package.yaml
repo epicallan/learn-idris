@@ -5,3 +5,5 @@ name: tdd-in-idris
 library:
   <<: *lib-common
   dependencies:
+    singletons
+
